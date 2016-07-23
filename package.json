@@ -41,6 +41,7 @@
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
+    "codelyzer": "0.0.25",
     "concurrently": "^2.0.0",
     "lite-server": "^2.2.0",
     "tslint": "^3.13.0",
