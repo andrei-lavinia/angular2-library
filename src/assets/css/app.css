@@ -1,4 +1,4 @@
-/* Master Styles */
+/* Main Styles */
 * { 
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -7,21 +7,26 @@ h1 {
     color: #900; 
     font-size: 250%;
 }
+
 h2, h3 { 
     color: #900;
     font-weight: lighter;
 }
+
 body { 
     margin: 0; 
     padding: 0;
 }
+
 body, input[text], button { 
     color: #888; 
 }
+
 a {
     cursor: pointer;
     cursor: hand;
 }
+
 button {
     background-color: #eee;
     border: none;
@@ -30,9 +35,11 @@ button {
     cursor: pointer;
     cursor: hand;
 }
+
 button:hover {
 	background-color: #cfd8dc;
 }
+
 button:disabled {
     background-color: #eee;
     color: #aaa; 
@@ -40,6 +47,7 @@ button:disabled {
 }
 
 /* Header styles */
+
 .library-header {
     color: #fff;
     text-align: center;
@@ -70,9 +78,13 @@ button:disabled {
     line-height: 1.5;
 }
 
-.library-link, .library-link:hover, .library-link:visited {
+.library-link, 
+.library-link:hover, 
+.library-link:visited {
     color: rgba(255, 255, 255, 0.7);
 }
+
+/* Content styles */
 
 .library-content {
     margin: 40px 10%;
@@ -82,6 +94,12 @@ button:disabled {
     font-size: 24px;
 }
 
-.book-title, .book-title:hover, .book-title:visited {
+.book-title, 
+.book-title:hover, 
+.book-title:visited {
     color: #900;
+}
+
+.book-author {
+    padding-left: 20px;
 }

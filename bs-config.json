@@ -1,15 +1,15 @@
 {
     "port": 8000,
     "files": [
-        "./src/**/*.{html,htm,css,ts}"
+        "./src/**/*.{html,css,ts}"
     ],
     "server": {
         "baseDir": "./src",
         "routes": {
             "/node_modules": "node_modules",
             "/build/app": "build/app",
-            "/api": "api",
-            "/src/app": "src/app"
+            "/src/app": "src/app",
+            "/api": "api"
         }
     }
 }

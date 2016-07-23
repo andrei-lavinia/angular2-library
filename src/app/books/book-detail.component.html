@@ -1,3 +1,4 @@
 <div *ngIf="book">
-    <a class="book-title" (click)="gotoBooks()">< {{book.title}}</a>
+    <div><a class="book-title" (click)="gotoBooks()">< {{book.title}}</a></div>
+    <div class="book-author">by <span>{{book.author}}</span></div>
 </div>

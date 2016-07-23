@@ -5,20 +5,21 @@
         <tr>
             <th>Asset number</th>
             <th>Title</th>
-            <th>Author</th>
+            <th>Author(s)</th>
             <th>Publisher</th>
             <th>Category</th>
-            <th>Rating</th>
         </tr>
     </thead>
     <tbody>
-        <tr *ngFor="let book of books" (click)="selectBook(book)" [class.active]="isSelected(book)">
+        <tr 
+            *ngFor="let book of books"
+            [class.active]="isSelected(book.id)" 
+            (click)="selectBook(book)">
             <td>{{book.id}}</td>
             <td>{{book.title}}</td>
             <td>{{book.author}}</td>
             <td>{{book.publisher}}</td>
             <td>{{book.category}}</td>
-            <th>{{book.rating}}</th>
         </tr>
     </tbody>
 </table>

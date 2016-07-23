@@ -3,42 +3,66 @@
         {
             "id": 1,
             "title": "JavaScript: The Good Parts",
-            "author": "Douglas Crockford"
+            "author": "Douglas Crockford",
+            "publisher": "O'Reilly Media, Inc.",
+            "category": "Javascript",
+            "rating": "4.1"
         },
         {
             "id": 2,
             "title": "ng-book: The Complete Book on AngularJS",
-            "author": "Ari Lerner"
+            "author": "Ari Lerner",
+            "publisher": "FULLSTACK.io",
+            "category": "Angular 1",
+            "rating": "3.9"
         },
         {
             "id": 3,
             "title": "Code Complete",
-            "author": "Steve McConnell"
+            "author": "Steve McConnell",
+            "publisher": "Microsoft Press",
+            "category": "Programming",
+            "rating": "4.26"
         },
         {
             "id": 4,
             "title": "The Mythical Man-Month",
-            "author": "Fred Brooks"
+            "author": "Fred Brooks",
+            "publisher": "Addison-Wesley Professional",
+            "category": "Programming",
+            "rating": "4.05"
         },
         {
             "id": 5,
             "title": "The Pragmatic Programmer: From Journeyman to Master",
-            "author": "Andrew Hunt and David Thomas"
+            "author": "Andrew Hunt and David Thomas",
+            "publisher": "Addison-Wesley Professional",
+            "category": "Programming",
+            "rating": "4.31"
         },
         {
             "id": 6,
             "title": "Eloquent JavaScript: A Modern Introduction to Programming",
-            "author": "Marijn Haverbeke"
+            "author": "Marijn Haverbeke",
+            "publisher": "No Starch Press",
+            "category": "Javascript",
+            "rating": "3.86"
         },
         {
             "id": 7,
             "title": "Effective JavaScript: 68 Specific Ways to Harness the Power of Javascript",
-            "author": "David Herman"
+            "author": "David Herman",
+            "publisher": "Addison-Wesley Professional ",
+            "category": "Javascript",
+            "rating": "4.11"
         },
         {
             "id": 8,
             "title": "You Don’t Know JS",
-            "author": "Kyle Simpson"
+            "author": "Kyle Simpson",
+            "publisher": "O'Reilly Media, Inc.",
+            "category": "Javascript",
+            "rating": "4.24"
         }
     ]
 }

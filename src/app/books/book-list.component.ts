@@ -36,7 +36,7 @@ export class BookListComponent implements OnInit, OnDestroy {
         this.paramsSubscription.unsubscribe();
     }
 
-    isSelected(book: Book) { return book.id === this.selectedId; }
+    isSelected(bookId: number) { return bookId === this.selectedId; }
 
     selectBook(book: Book) {
         this.router.navigate(['/book', book.id]);
