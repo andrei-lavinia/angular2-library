@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "JavaScript: The Good Parts",
+            "author": "Douglas Crockford"
+        },
+        {
+            "id": 2,
+            "title": "ng-book: The Complete Book on AngularJS",
+            "author": "Ari Lerner"
+        },
+        {
+            "id": 3,
+            "title": "Code Complete",
+            "author": "Steve McConnell"
+        },
+        {
+            "id": 4,
+            "title": "The Mythical Man-Month",
+            "author": "Fred Brooks"
+        },
+        {
+            "id": 5,
+            "title": "The Pragmatic Programmer: From Journeyman to Master",
+            "author": "Andrew Hunt and David Thomas"
+        },
+        {
+            "id": 6,
+            "title": "Eloquent JavaScript: A Modern Introduction to Programming",
+            "author": "Marijn Haverbeke"
+        },
+        {
+            "id": 7,
+            "title": "Effective JavaScript: 68 Specific Ways to Harness the Power of Javascript",
+            "author": "David Herman"
+        },
+        {
+            "id": 8,
+            "title": "You Don’t Know JS",
+            "author": "Kyle Simpson"
+        }
+    ]
+}
